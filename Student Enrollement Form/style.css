@@ -1,0 +1,353 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+}
+
+.box .headinggg {
+    top: 5vh;
+    height: 10vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    color: black;
+    font-family: 'Arial Nova', serif;
+    font-size: 25px;
+    font-weight: 300;
+    letter-spacing: 1px;
+    user-select: none;
+}
+
+.container {
+    height: auto;
+    background-image: linear-gradient(135deg, #7F7FD5 , #91EAE4);
+    display: flex;
+    justify-content: center;
+}
+
+.container .form {
+    width: 50%;
+    margin-top: 44px;
+    font-family: 'Arial Nova';
+}
+
+.container .form form {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 20px;
+    word-wrap: break-word;
+}
+
+#name,
+#email,
+#website,
+#url {
+    width: 335px;
+    padding: 8px;
+    border-radius: 12px;
+    border: none;
+    caret-color: red;
+    outline: 2px solid rgba(128, 128, 128, 0.26);
+    font-size: 15px;
+}
+
+#name:focus,
+#email:focus,
+#website:focus,
+#url:focus {
+    outline: 1px solid rgba(0, 0, 255, 0.711);
+}
+
+.name {
+    margin-left: 2.5em;
+    color: white;
+    display: flex;
+    align-items: center;
+    gap: 5.6vw;
+    font-size: 1.25rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+}
+
+.email {
+    margin-left: 2.5em;
+    color: white;
+    display: flex;
+    align-items: center;
+    gap: 6.1vw;
+    font-size: 1.25rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+}
+
+.website {
+    margin-left: 2.5em;
+    color: white;
+    display: flex;
+    align-items: center;
+    gap: 4.4vw;
+    font-size: 1.2rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+}
+
+.gender {
+    margin-left: 2.5em;
+    color: white;
+    display: flex;
+    align-items: center;
+    gap: 4.7vw;
+    font-size: 1.25rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+}
+
+.image {
+    margin-left: 2.5em;
+    color: white;
+    display: flex;
+    align-items: center;
+    gap: 5.5vw;
+    font-size: 1.25rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+}
+
+.skills {
+    margin-left: 2.5em;
+    color: white;
+    display: flex;
+    align-items: center;
+    gap: 6.3vw;
+    font-size: 1.25rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+
+}
+
+.text-p {
+    font-size: 1.18rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+.text-p label {
+    display: flex;
+    gap: 3px;
+    align-items: baseline;
+}
+
+.button {
+    margin-left: 3.5em;
+    display: flex;
+    gap: 4vw;
+    align-items: center;
+    justify-content: center;
+}
+
+.stud{
+    color: white;
+    font-family: 'Areal Nova';
+    border-bottom: 2px dotted #fff;
+    margin-left: 3vw;
+    margin-right: 3vw;
+}
+
+.button #add {
+    padding: 8px 40px;
+    margin-top: 11px;
+    margin-left: 2px;
+    font-size: 1.2rem;
+    background-color: #7F7FD5;
+    border: none;
+    box-shadow: 4px 4px 7px -2px rgb(0 0 0 / 70%);
+    border-radius: 20px;
+    color: white;
+    cursor: pointer;
+}
+
+.button #reset {
+    padding: 8px 40px;
+    margin-top: 11px;
+    margin-left: 2px;
+    background-color: #7F7FD5;
+    font-size: 1.2rem;
+    border: none;
+    border-radius: 20px;
+    color: white;
+    cursor: pointer;
+    box-shadow: 4px 4px 7px -2px rgb(0 0 0 / 70%);
+}
+
+.button #add:active,
+.button #reset:active {
+    background-color: black;
+    box-shadow: none;
+}
+
+.container .line {
+    margin: auto;
+    width: 3px;
+    height: 180vh;
+    background-color: white;
+    border-radius: 33px;
+}
+
+.op-box {
+    width: 50%;
+
+}
+
+.output {
+    padding: 45px;
+}
+
+h2 {
+    color: white;
+    font-family: 'Arial Nova';
+    text-align: center;
+    padding: 15px;
+    border-bottom: 2px dotted white;
+}
+
+.output .cardContainer {
+    font-family: Arial, Helvetica, sans-serif;
+    overflow-y: auto;
+    height: 73vh;
+}
+
+.output .card {
+    height: auto;
+    display: flex;
+    background-color: rgba(128, 28, 128, 0.132);
+    padding: 1rem;
+    border-radius: 0.5rem;
+    margin: 20px 0;
+    gap: 5vw;
+}
+
+.card img {
+    border-radius: 0rem;
+    width: 130px;
+    height: 150px;
+}
+
+.card .info {
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+}
+
+.card .info a {
+    color: rgb(43, 43, 255);
+    text-decoration: none;
+}
+
+.card .info a:hover {
+    text-decoration: underline;
+}
+
+.card .info button {
+    margin-top: 11px;
+    padding: 2px 39px;
+    border-radius: 25px;
+    border: none;
+    background-color: #7F7FD5;
+    color: white;
+    box-shadow: 4px 4px 7px -2px rgb(0 0 0 / 70%);
+    cursor: pointer;
+}
+
+.card .info button:active {
+    background-color: black;
+    box-shadow: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width:1000px) {
+    .container .line {
+        display: none;
+    }
+
+    .container {
+        flex-direction: column;
+    }
+
+    .container .form {
+        width: 100%;
+    }
+
+    .op-box {
+        width: 100%;
+
+    }
+
+    .name,
+    .email,
+    .website,
+    .image,
+    .skills,
+    .gender {
+        justify-content: space-around;
+    }
+
+    .gender {
+        padding-right: 17vw;
+    }
+}
+
+@media only screen and (max-width:700px) {
+    h1 {
+        font-size: 25px;
+    }
+
+    .container .form form {
+        padding: 27px;
+    }
+}
+
+@media only screen and (max-width:450px) {
+    h1 {
+        font-size: 18px;
+    }
+
+    .output .card {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .card img {
+        margin: auto;
+
+    }
+}
